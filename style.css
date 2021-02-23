@@ -1,0 +1,20 @@
+/* Universal Styles */
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 0 16px;
+}
