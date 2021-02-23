@@ -18,3 +18,19 @@ body {
     max-width: 950px;
     padding: 0 16px;
 }
+
+/* Header Styles */
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    margin: 0 2em;
+}
+
+.nav-item {
+    margin-right: .5em;
+    text-decoration: none;
+}
