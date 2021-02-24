@@ -19,18 +19,63 @@ body {
     padding: 0 16px;
 }
 
+section {
+    margin-top: 1em;
+}
+
 /* Header Styles */
 
 header {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
-nav {
-    margin: 0 2em;
+h1 {
+    margin: 0;
+    text-align: center;
+    width: 25%;
 }
 
 .nav-item {
     margin-right: .5em;
     text-decoration: none;
+}
+
+/* About Me Section */
+
+.about-me-container {
+    display: flex;
+}
+
+.about-me-text-container {
+    margin: 0 1.5em;
+}
+
+.headshot {
+    border-radius: 10%;
+    height: 85%;
+    margin: auto 2em;
+}
+
+/* Projects Section */
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.project-item {
+    width: 45%;
+}
+
+.project-item p {
+    text-align: center;
+}
+
+.project-example {
+    height: 175px;
+    width: 100%;
 }
