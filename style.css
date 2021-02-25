@@ -82,6 +82,10 @@ h1 {
 
 /* Skills Section */
 
+#skills {
+    margin-bottom: 2em;
+}
+
 .skills-container {
     display: flex;
     justify-content: space-evenly;
