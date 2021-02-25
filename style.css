@@ -23,6 +23,10 @@ section {
     margin-top: 1em;
 }
 
+a {
+    color: black;
+}
+
 /* Header Styles */
 
 header {
@@ -93,5 +97,15 @@ h1 {
 }
 
 .fab {
+    font-size: 2em;
+}
+
+/* Contact Page */
+
+.contact-container a {
+    margin-right: 1em;
+}
+
+.fas {
     font-size: 2em;
 }
