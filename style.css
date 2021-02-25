@@ -79,3 +79,15 @@ h1 {
     height: 175px;
     width: 100%;
 }
+
+/* Skills Section */
+
+.skills-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: .5em;
+}
+
+.fab {
+    font-size: 2em;
+}
