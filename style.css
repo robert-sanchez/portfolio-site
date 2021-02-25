@@ -33,9 +33,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 1.5em 0;
 }
 
 h1 {
+    font-size: 1.75em;
     margin: 0;
     text-align: center;
 }
