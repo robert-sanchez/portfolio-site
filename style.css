@@ -14,9 +14,9 @@ body {
     flex-direction: column;
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
-    margin: 0 auto;
+    margin: 1em auto;
     max-width: 950px;
-    padding: 0 16px;
+    padding: 0;
 }
 
 section {
@@ -38,7 +38,6 @@ header {
 h1 {
     margin: 0;
     text-align: center;
-    width: 25%;
 }
 
 .nav-item {
